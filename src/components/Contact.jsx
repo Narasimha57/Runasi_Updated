@@ -40,12 +40,12 @@
 //           {/* Email */}
 //           <div className="bg-white rounded-xl p-5 shadow-md hover:shadow-lg transition-shadow border border-purple-200">
 //             <div className="flex items-start gap-3">
-//               <div className="w-10 h-10 bg-gradient-to-br from-[#6E5B9A] to-[#B29CE4] rounded-full flex items-center justify-center">
+//               <div className="w-10 h-10 bg-linear-to-br from-[#6E5B9A] to-[#B29CE4] rounded-full flex items-center justify-center">
 //                 <Mail className="w-5 h-5 text-white" />
 //               </div>
 //               <div>
 //                 <h3 className="font-semibold text-gray-900 text-base mb-1">Email</h3>
-//                 <p className="text-gray-600 text-sm break-words">lerunaberino@gmail.com</p>
+//                 <p className="text-gray-600 text-sm wrap-break-word">lerunaberino@gmail.com</p>
 //               </div>
 //             </div>
 //           </div>
@@ -53,7 +53,7 @@
 //           {/* Location */}
 //           <div className="bg-white rounded-xl p-5 shadow-md hover:shadow-lg transition-shadow border border-purple-200">
 //             <div className="flex items-start gap-3">
-//               <div className="w-10 h-10 bg-gradient-to-br from-[#6E5B9A] to-[#B29CE4] rounded-full flex items-center justify-center">
+//               <div className="w-10 h-10 bg-linear-to-br from-[#6E5B9A] to-[#B29CE4] rounded-full flex items-center justify-center">
 //                 <MapPin className="w-5 h-5 text-white" />
 //               </div>
 //               <div>
