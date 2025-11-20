@@ -1,19 +1,19 @@
 import Hero from '../components/Hero.jsx';
-import Navbar from "../components/Navbar.jsx"
 import About from '../components/About.jsx';
 import ServicesGrid from '../components/ServicesGrid.jsx';
-// import Contact from '../components/Contact.jsx';
 import Footer from '../components/Footer.jsx';
+import Navbar from '../components/Navbar.jsx';
 
-export default function Home() {
+function Home() {
   return (
     <div className="min-h-screen">
-      <Navbar />
+      <Navbar/>
       <Hero />
       <About />
       <ServicesGrid />
-      {/* <Contact /> */}
       <Footer />
     </div>
   );
 }
+
+export default Home;

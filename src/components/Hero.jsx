@@ -3,7 +3,7 @@ import runasalogo from '../assets/runasilogo.jpg';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-linear-to-br from-[#E8E3F3] via-[#F0EDF7] to-[#E8E3F3]">
+    <section id='hero' className="relative min-h-screen flex items-center justify-center overflow-hidden bg-linear-to-br from-[#E8E3F3] via-[#F0EDF7] to-[#E8E3F3]">
       {/* Decorative Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 w-72 h-72 bg-[#6E5B9A]/30 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-blob"></div>
