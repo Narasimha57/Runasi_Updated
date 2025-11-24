@@ -10,7 +10,7 @@ export default function ServiceDetail() {
   
   const service = services.find(s => s.id === id);
 
-  if (!service) {
+  if (!service){
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
