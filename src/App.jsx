@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ServiceDetailPage from "./pages/ServiceDetail.jsx";
-import Hero from "./components/Hero.jsx";
+// import Hero from "./components/Hero.jsx";
 import Home from "./pages/Home.jsx";
 
 function App() {

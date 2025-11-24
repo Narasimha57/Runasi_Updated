@@ -24,7 +24,12 @@ export default function ServiceCard({ service }) {
         </p>
         
         <button
-          onClick={() => navigate(`/service/${service.id}`)}
+          onClick={() => {
+            navigate(`/service/${service.id}`);
+            setTimeout(() => {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }, 100); 
+          }}
           className="inline-flex items-center gap-2 text-[#6E5B9A] font-semibold hover:gap-3 transition-all group/btn"
         >
           View More
