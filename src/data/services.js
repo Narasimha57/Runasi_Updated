@@ -5,6 +5,8 @@ import SujokTherapy from "../assets/sujok therapy.jpg"
 import cuppingTherapy from "../assets/cupping therapy.jpg"
 import auricularTherapy from "../assets/auricular therapy.jpg"
 import haircare from "../assets/haircare.jpeg"
+import physiotherapy from "../assets/physiotherapy.jpeg";
+import hydra from "../assets/hydra.jpeg";
 
 export const services = [
   {
@@ -173,6 +175,35 @@ export const services = [
       'Reduces cravings and emotional eating',
       'Personalized to your body type',
       'Improves overall health and energy'
+    ]
+  },
+  {
+    id: 'physiotherapy',
+    name: 'Physiotherapy',
+    shortDescription: 'Physiotherapy is a healthcare service that focuses on restoring movement, reducing pain, and improving physical strength and flexibility',
+    fullDescription: 'Physiotherapy is a science-driven healthcare practice dedicated to improving movement, physical function, and overall well-being. It focuses on restoring mobility, strength, flexibility, and coordination through evidence-based techniques. Treatment may include manual therapy, therapeutic exercises, electrotherapy, dry needling, and rehabilitation modalities depending on the patient’s needs. Physiotherapists thoroughly assess posture, muscle imbalance, pain points, and movement patterns before creating a personalized recovery plan. It helps individuals recover from injuries, surgeries, neurological conditions, sports strain, and chronic pain disorders. Physiotherapy also plays a preventive role by improving body mechanics and reducing the risk of future injuries. Beyond pain relief, it supports long-term physical health, independence, confidence, and enhanced quality of life',
+    image: physiotherapy,
+    benefits: [
+      'Pain Relief',
+      'Improved Mobility',
+      'Faster Recovery',
+      'Avoids or Delays Surgery',
+      'Helps Manage Chronic Conditions'
+    ]
+  },
+  {
+    id: 'hydra-facial',
+    name: 'Hydra Facial',
+    shortDescription: 'HydraFacial is a gentle yet highly effective treatment that deeply cleanses, exfoliates, removes impurities, and hydrates the skin in one session. With its advanced vortex technology, it delivers glowing, refreshed skin without irritation—making it suitable even for sensitive skin',
+    fullDescription: 'HydraFacial is one of the most advanced and popular skincare treatments because it offers a complete solution for almost every skin concern in a single session. It works through a unique technology that simultaneously cleanses the skin, exfoliates dead cells, removes impurities, and deeply hydrates the layers beneath the surface. Unlike traditional facials, which depend on manual extraction and can sometimes cause irritation, HydraFacial uses a controlled vortex suction that is gentle yet highly effective in clearing clogged pores, removing blackheads, and purifying the skin. The treatment feels soothing, cooling, and relaxing, making it suitable even for sensitive or easily irritated skin.',
+    image: hydra,
+    benefits: [
+      'Deep Cleansing of Skin',
+      'Exfoliates Dead Skin',
+      'Instant Hydration',
+      'Reduces Acne & Breakouts',
+      'Improves overall health and energy',
+      'Anti-Aging Benefits'
     ]
   }
 ];

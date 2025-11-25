@@ -65,42 +65,54 @@ export default function Footer() {
 
           {/* --- Right: Contact Info --- */}
           {/* Mobile: Aligns Left | Desktop: Aligns Right */}
-         <div className="flex flex-col gap-4 items-baseline-last text-left">
-  <h4 className="font-serif text-lg font-semibold text-gray-200 mb-1 text-right">
-    Contact Information
-  </h4>
+          <div className="flex flex-col gap-4 sm:items-start md:items-end lg:items-end-safe text-left">
+            <h4 className="font-serif text-lg font-semibold text-gray-200 mb-1 mr-24 lg:text-left">
+              Contact Information
+            </h4>
 
-  <div className="space-y-4">
-    {contactLinks.map(({ id, icon: Icon, content, href }) => (
-      <a
-        key={id}
-        href={href}
-        target={id === "address" ? "_blank" : "_self"}
-        rel="noopener noreferrer"
-        className={`group flex gap-3 items-start transition-colors duration-200 ${
-          href ? "hover:text-[#B29CE4]" : "cursor-default"
-        }`}
-      >
-        {/* Icon */}
-        <Icon className="w-5 h-5 text-[#B29CE4] shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+            <div className="space-y-4">
+              {contactLinks.map(({ id, icon: Icon, content, href }) => (
+                <a
+                  key={id}
+                  href={href}
+                  target={id === "address" ? "_blank" : "_self"}
+                  rel="noopener noreferrer"
+                  className={`group flex gap-3 items-start transition-colors duration-200 ${
+                    href ? "hover:text-[#B29CE4]" : "cursor-default"
+                  }`}
+                >
+                  {/* Icon */}
+                  <Icon className="w-5 h-5 text-[#B29CE4] shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
 
-        {/* Text */}
-        <div className="text-sm text-gray-300 group-hover:text-white transition-colors">
-          {content}
-        </div>
-      </a>
-    ))}
-  </div>
-</div>
-
-
+                  {/* Text */}
+                  <div className="text-sm text-gray-300 group-hover:text-white transition-colors">
+                    {content}
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* --- Bottom Section --- */}
-        <div className="border-t border-gray-700/50 mt-0 pt-1 text-center">
+        <div className="border-t border-gray-700/50 mt-4 pt-3 text-center space-y-1">
           <p className="text-gray-500 text-xs md:text-base">
             &copy; {currentYear} Runasi Wellness Center. All rights reserved.
           </p>
+
+          <a
+            href="https://www.linkedin.com/in/narasimha-g-0667b4243/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-center"
+          >
+            <span
+              style={{ fontFamily: "Comfortaa, sans-serif" }}
+              className="font-bold text-sm md:text-sm lg:text-base bg-linear-to-r from-indigo-400 via-pink-500 to-amber-300 bg-clip-text text-transparent transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-125 bg-size-[200%_auto] hover:bg-position[100%_center] cursor-pointer"
+            >
+              Designed & Developed by Narasimha Gonela
+            </span>
+          </a>
         </div>
       </div>
     </footer>

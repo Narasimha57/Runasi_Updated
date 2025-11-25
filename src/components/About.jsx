@@ -1,12 +1,9 @@
-import { Users, Award, Clock, Heart } from 'lucide-react';
-
 export default function About() {
-
   return (
     <section id="about" className="py-24 bg-linear-to-b from-[#F0EDF7] to-[#E8E3F3]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 lg:gap-12 items-start">
 
           {/* LEFT SIDE — TEXT */}
           <div>
@@ -29,25 +26,55 @@ export default function About() {
 
           {/* RIGHT SIDE — SINGLE SPECIALIZED CARD */}
           <div>
-            <div className="bg-linear-to-br from-purple-50 to-purple-100 rounded-2xl p-8 text-center hover:shadow-lg transition-shadow border border-purple-200">
-
-              {/* Icon */}
-              <div className="w-14 h-14 bg-linear-to-br from-[#6E5B9A] to-[#B29CE4] rounded-full flex items-center justify-center mx-auto mb-5">
-                <Heart className="w-7 h-7 text-white" />
-              </div>
+            <div className="bg-linear-to-br from-purple-50 to-purple-100 rounded-2xl p-8 hover:shadow-lg transition-shadow border border-purple-200">
 
               {/* Title */}
-              <div className="font-serif text-2xl font-bold text-gray-900 mb-3">
+              <div className="text-2xl font-bold text-gray-900 mb-2 text-center">
                 Specialized In
               </div>
 
-              {/* Items */}
-              <ul className="text-gray-700 text-base space-y-2 font-medium">
-                <li>Diploma in Ayurvedic Cosmetics  Mastery Program </li>
-                {/* <li>✓ Weight Loss Management</li>
-                <li>✓ Hair care Treatment</li>
-                <li>✓ Detox & Rejuvenation Treatments</li> */}
-              </ul>
+              {/* Specialization */}
+              <div className="text-gray-900 text-lg font-semibold mb-4 text-center">
+                Diploma in Ayurvedic Cosmetics Mastery Program
+              </div>
+
+              {/* Practitioner Name */}
+              <h3 className="text-3xl font-semibold font-serif text-gray-900 mb-0 mt-8">
+                Hr. Sravanthi
+              </h3>
+
+              {/* Education Section */}
+              <div className="text-2xl font-semibold text-gray-900 mb-3">
+                Education & Qualifications
+              </div>
+
+              {/* Qualifications List - Grid Format */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="bg-white/50 rounded-lg p-3 text-gray-700 text-sm font-medium">
+                  MBA, M.Phil.
+                </div>
+                <div className="bg-white/50 rounded-lg p-3 text-gray-700 text-sm font-medium">
+                  D.Acu (Diploma in Acupuncture)
+                </div>
+                <div className="bg-white/50 rounded-lg p-3 text-gray-700 text-sm font-medium">
+                  Ad.D.Acu (Advanced Diploma in Acupuncture)
+                </div>
+                <div className="bg-white/50 rounded-lg p-3 text-gray-700 text-sm font-medium">
+                  D.Sj (Diploma in Sujok Therapy)
+                </div>
+                <div className="bg-white/50 rounded-lg p-3 text-gray-700 text-sm font-medium">
+                  Ad.pT (Advanced Diploma in Paschagavya Therapy)
+                </div>
+                <div className="bg-white/50 rounded-lg p-3 text-gray-700 text-sm font-medium">
+                  NDDY (Diploma in Naturopathy)
+                </div>
+                <div className="bg-white/50 rounded-lg p-3 text-gray-700 text-sm font-medium">
+                  Diploma in Yoga & Yogic Science
+                </div>
+                <div className="bg-white/50 rounded-lg p-3 text-gray-700 text-sm font-medium">
+                  Color Therapy & Chromotherapy
+                </div>
+              </div>
 
             </div>
           </div>
