@@ -211,7 +211,7 @@ export const services = [
     id: 'ayurvedic-cosmetics',
     name: 'Ayurvedic Cosmetics',
     shortDescription: 'Ayurvedic cosmetics are nature-derived skincare solutions that work holistically to enhance beauty from within',
-    fullDescription: 'Ayurvedic cosmetics are natural skincare formulations rooted in the ancient science of Ayurveda, designed to nurture beauty from within through the balance of mind, body, and spirit. Derived from nature’s purest resources-herbs, flowers, fruits, minerals, and essential oils—these products harness the therapeutic power of botanicals to restore and maintain the skin’s natural vitality. Each formulation is carefully crafted based on traditional Ayurvedic principles, which emphasize harmony among the three doshas (Vata, Pitta, and Kapha) to achieve holistic wellness and radiant beauty',
+    fullDescription: 'Ayurvedic cosmetics are natural skincare formulations rooted in the ancient science of Ayurveda, designed to nurture beauty from within through the balance of mind, body, and spirit. Derived from nature’s purest resources-herbs, flowers, fruits, minerals, and essential oils-these products harness the therapeutic power of botanicals to restore and maintain the skin’s natural vitality. Each formulation is carefully crafted based on traditional Ayurvedic principles, which emphasize harmony among the three doshas (Vata, Pitta, and Kapha) to achieve holistic wellness and radiant beauty',
     image: cosmetic,
     benefits: [
       'Deep herbal nourishment for skin',
