@@ -12,7 +12,7 @@ export default function Footer() {
       icon: MapPin,
       content: (
         <>
-          <p>Runasi Holistic Wellness Center</p>
+          <p>Runasi Wellness Center</p>
           <p>Nagarjuna Diagnostic Center</p>
           <p>Opposite St. Patrick's High School</p>
           <p>Sebastian Road Secunderabad 500003</p>
@@ -57,7 +57,7 @@ export default function Footer() {
             </div>
 
             <p className="text-gray-400 text-sm leading-relaxed max-w-md">
-              Your trusted partner in holistic healing and wellness—where
+              Your trusted partner in healing and wellness—where
               ancient wisdom meets modern therapeutic care. We provide
               personalized pathways to physical and mental rejuvenation.
             </p>
@@ -101,7 +101,7 @@ export default function Footer() {
           </p>
 
           <a
-            href="https://www.linkedin.com/in/narasimha-g-0667b4243/"
+            href="https://www.rgesindia.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center"
@@ -110,7 +110,7 @@ export default function Footer() {
               style={{ fontFamily: "Comfortaa, sans-serif" }}
               className="font-bold text-sm md:text-sm lg:text-base bg-linear-to-r from-indigo-400 via-pink-500 to-amber-300 bg-clip-text text-transparent transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-125 bg-size-[200%_auto] hover:bg-position[100%_center] cursor-pointer"
             >
-              Designed & Developed by Narasimha Gonela
+              Designed & Developed by RGESIndia
             </span>
           </a>
         </div>

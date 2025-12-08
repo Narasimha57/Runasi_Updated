@@ -29,14 +29,11 @@ export default function About() {
             <div className="bg-linear-to-br from-purple-50 to-purple-100 rounded-2xl p-8 hover:shadow-lg transition-shadow border border-purple-200">
 
               {/* Title */}
-              <div className="text-2xl font-bold text-gray-900 mb-2 text-center">
-                Specialized In
-              </div>
-
+          
               {/* Specialization */}
-              <div className="text-gray-900 text-lg font-semibold mb-4 text-center">
+              {/* <div className="text-gray-900 text-lg font-semibold mb-4 text-center">
                 Diploma in Ayurvedic Cosmetics Mastery Program
-              </div>
+              </div> */}
 
               {/* Practitioner Name */}
               <h3 className="text-3xl font-semibold font-serif text-gray-900 mb-0 mt-8">
@@ -73,6 +70,9 @@ export default function About() {
                 </div>
                 <div className="bg-white/50 rounded-lg p-3 text-gray-700 text-sm font-medium">
                   Color Therapy & Chromotherapy
+                </div>
+                <div className="bg-white/50 rounded-lg p-3 text-gray-700 text-sm font-medium">
+                   Diploma in Ayurvedic Cosmetics Mastery Program
                 </div>
               </div>
 
