@@ -59,7 +59,7 @@ export default function Contact() {
             <p className="text-gray-700 text-xs sm:text-sm">
               Nagarjuna Diagnostic Center, <br />Opp. St. Patrick's High School
             </p>
-            <p className="text-gray-600 text-xs sm:text-sm">Sebastian Road, Secunderabad – 500003</p>
+            <p className="text-gray-600 text-xs sm:text-sm">Sebastian Road, Secunderabad - 500003</p>
           </div>
         </div>
 

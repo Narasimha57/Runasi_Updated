@@ -57,7 +57,7 @@ export default function Footer() {
             </div>
 
             <p className="text-gray-400 text-sm leading-relaxed max-w-md">
-              Your trusted partner in healing and wellness—where
+              Your trusted partner in healing and wellness-where
               ancient wisdom meets modern therapeutic care. We provide
               personalized pathways to physical and mental rejuvenation.
             </p>

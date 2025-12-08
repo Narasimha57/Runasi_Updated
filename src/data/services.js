@@ -195,7 +195,7 @@ export const services = [
   {
     id: 'hydra-facial',
     name: 'Hydra Facial',
-    shortDescription: 'HydraFacial is a gentle yet highly effective treatment that deeply cleanses, exfoliates, removes impurities, and hydrates the skin in one session. With its advanced vortex technology, it delivers glowing, refreshed skin without irritation—making it suitable even for sensitive skin',
+    shortDescription: 'HydraFacial is a gentle yet highly effective treatment that deeply cleanses, exfoliates, removes impurities, and hydrates the skin in one session. With its advanced vortex technology, it delivers glowing, refreshed skin without irritation-making it suitable even for sensitive skin',
     fullDescription: 'HydraFacial is one of the most advanced and popular skincare treatments because it offers a complete solution for almost every skin concern in a single session. It works through a unique technology that simultaneously cleanses the skin, exfoliates dead cells, removes impurities, and deeply hydrates the layers beneath the surface. Unlike traditional facials, which depend on manual extraction and can sometimes cause irritation, HydraFacial uses a controlled vortex suction that is gentle yet highly effective in clearing clogged pores, removing blackheads, and purifying the skin. The treatment feels soothing, cooling, and relaxing, making it suitable even for sensitive or easily irritated skin.',
     image: hydra,
     benefits: [
@@ -211,7 +211,7 @@ export const services = [
     id: 'ayurvedic-cosmetics',
     name: 'Ayurvedic Cosmetics',
     shortDescription: 'Ayurvedic cosmetics are nature-derived skincare solutions that work holistically to enhance beauty from within',
-    fullDescription: 'Ayurvedic cosmetics are natural skincare formulations rooted in the ancient science of Ayurveda, designed to nurture beauty from within through the balance of mind, body, and spirit. Derived from nature’s purest resources—herbs, flowers, fruits, minerals, and essential oils—these products harness the therapeutic power of botanicals to restore and maintain the skin’s natural vitality. Each formulation is carefully crafted based on traditional Ayurvedic principles, which emphasize harmony among the three doshas (Vata, Pitta, and Kapha) to achieve holistic wellness and radiant beauty',
+    fullDescription: 'Ayurvedic cosmetics are natural skincare formulations rooted in the ancient science of Ayurveda, designed to nurture beauty from within through the balance of mind, body, and spirit. Derived from nature’s purest resources-herbs, flowers, fruits, minerals, and essential oils—these products harness the therapeutic power of botanicals to restore and maintain the skin’s natural vitality. Each formulation is carefully crafted based on traditional Ayurvedic principles, which emphasize harmony among the three doshas (Vata, Pitta, and Kapha) to achieve holistic wellness and radiant beauty',
     image: cosmetic,
     benefits: [
       'Deep herbal nourishment for skin',
