@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://runasiwellnesscenter.com/$1",
+      "permanent": true
+    }
+  ]
+}
