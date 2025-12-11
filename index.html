@@ -27,7 +27,7 @@
 </html> -->
 
 
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -61,13 +61,13 @@
       content="Runasi Wellness Center, Runasi Wellness, wellness center Hyderabad, ayurvedic therapy, holistic healing, relaxation therapy"
     />
 
-    <!-- Canonical URL (Prevents Duplicate Content Issue) -->
+    <!-- Canonical URL -->
     <link rel="canonical" href="https://runasiwellnesscenter.com/" />
 
-    <!-- Robots (Allows Google to Index Everything) -->
+    <!-- Robots -->
     <meta name="robots" content="index, follow" />
 
-    <!-- Open Graph Tags (For Google, WhatsApp, LinkedIn, Facebook Preview) -->
+    <!-- Open Graph Tags -->
     <meta property="og:title" content="Runasi Wellness Center - Ayurvedic & Wellness Therapy" />
     <meta
       property="og:description"
@@ -77,7 +77,7 @@
     <meta property="og:url" content="https://runasiwellnesscenter.com/" />
     <meta property="og:type" content="website" />
 
-    <!-- Twitter Card for sharable preview -->
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Runasi Wellness Center - Ayurvedic Wellness" />
     <meta
@@ -86,7 +86,7 @@
     />
     <meta name="twitter:image" content="https://runasiwellnesscenter.com/companylogo.jpg" />
 
-    <!-- Local Business Structured Data (Boosts Google Ranking & Local Search) -->
+    <!-- Local Business Structured Data (SAFE JSON-LD for Vite) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -102,13 +102,16 @@
           "addressCountry": "IN"
         },
         "description": "Runasi Wellness Center offers ayurvedic treatments, wellness therapies, relaxation, and holistic healing services.",
-        "priceRange": "₹₹"
+        "priceRange": "Rs"
       }
     </script>
   </head>
 
   <body>
     <div id="root"></div>
+
+    <!-- Correct Vite Script -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+
